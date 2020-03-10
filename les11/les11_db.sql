@@ -93,7 +93,7 @@ END//
 
 -- Практическое задание по теме “NoSQL”
 -- 1. В базе данных Redis подберите коллекцию для подсчета посещений с определенных IP-адресов.
--- скриншот - 
+-- скриншот - https://github.com/managorny/db/blob/master/les11/les11_db_redis.jpeg
 -- HSET ips '127.0.0.1' 1
 -- HINCRBY ips '127.0.0.1' 1
 -- HSET ips '127.0.0.2' 1
@@ -106,7 +106,7 @@ END//
 -- 4) "3"
 
 -- 2. При помощи базы данных Redis решите задачу поиска имени пользователя по электронному адресу и наоборот, поиск электронного адреса пользователя по его имени.
--- скриншот - 
+-- скриншот - https://github.com/managorny/db/blob/master/les11/les11_db_redis2.jpeg
 -- HSET users 'sergey@mail.ru' sergey
 -- HSET users 'petr@mail.ru' petr
 -- HGET users 'petr@mail.ru'
