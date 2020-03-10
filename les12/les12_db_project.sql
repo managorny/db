@@ -240,7 +240,7 @@ CREATE TABLE logs (
 ) ENGINE=Archive;
 
 -- 4. ERDiagram для БД
--- //ссылка//
+-- https://github.com/managorny/db/blob/master/les12/ERDiagram.jpeg
 
 -- 5. Наполнение БД (фековыми данными, для наглядного примера работы базы)
 
